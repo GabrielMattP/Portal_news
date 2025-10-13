@@ -9,7 +9,7 @@
   --brand-color-dark: #1d4ed8;
   --bg-color: #0f172a;
   --stroke-color: #1e293b;
-  --text-color-primary: #F1f5ff;
+  --text-color-primary: #f1f5ff;
   --text-color-secondary: #cbd5e1;
 
   --font-family: "Archivo", sans-serif;
@@ -19,21 +19,22 @@
   --text-span: 600 14px/145% var(--font-family);
   --text: 400 16px/140% var(--font-family);
   --text-sm: 400 14px/160% var(--font-family);
-
 }
 
-body{
-    font: var(--text);
-    color: var(--text-color-primary);
-    background-color: var(--bg-color);
+body {
+  font: var(--text);
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-a:hover{
-    color: var(--brand-color-light);
+a:hover {
+  color: var(--brand-color-light);
 }
-h1,h2,h3{
-     font: inherit;
+h1,
+h2,
+h3 {
+  font: inherit;
 }
