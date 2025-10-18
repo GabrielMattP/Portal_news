@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 :root {
@@ -50,7 +51,13 @@ img {
 }
 main {
   margin-top: 40px;
-  gap: 80px;
+  row-gap: 80px;
+  column-gap: 32px;
+  grid-template-columns: 1fr 30%;
+  grid-template-areas: 
+  "featured featured"
+  "weekly weekly"
+  "ai aside";
 }
 /* utility-first */
 
